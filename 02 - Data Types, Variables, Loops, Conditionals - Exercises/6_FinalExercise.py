@@ -2,6 +2,20 @@
 # 1. Continuously loop until the user enters the empty string. They can do
 #    this by simply pressing Enter or Return without entering in any
 #    characters.
+
+userInput = input("Please enter a string: ")
+
+
+while userInput != "":
+    print("First letter capitalized: ", userInput.capitalize())
+    print("All lowercase:            ", userInput.lower())
+    print("Title case:               ", userInput.title())
+    print("All uppercase:            ", userInput.upper())
+    userInput = input("Please enter a string: ")
+
+print("Thanks for playing!")
+
+
 # 2. Within the loop, ask the user to enter a string. Again, if they just 
 #    press the Enter or Return key, this results in an "empty string". 
 #    If they entered the empty string, end the loop. The empty string

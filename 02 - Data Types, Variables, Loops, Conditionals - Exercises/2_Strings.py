@@ -22,6 +22,12 @@ https://poets.org/poem/inferno-canto-i
 
 """
 empty_string = ""  # The empty string does not contain any characters!
+print("---Ex1---")
+print(single_word)
+print(two_words)
+print(special_characters)
+print(big_text )
+print(empty_string)
 
 # Notice that we can define strings in different ways. The following 
 # variables have all the same content. However, we need to use triple-
